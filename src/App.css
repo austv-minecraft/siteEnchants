@@ -1,0 +1,182 @@
+.test-border {
+  outline: 1px solid red !important;
+}
+
+.filters-form {
+  display: flex;
+  justify-content: center;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+input, select {
+  box-sizing: border-box;
+  width: 160px;
+  margin: 10px;
+  height: 30px;
+  padding: 5px 8px;
+  font-size: 14px;
+}
+
+
+.description {
+  width: 50%;
+  margin: 1rem;
+}
+
+.main-container {
+  display: flex;
+  margin-top: 1rem;
+  height: auto;
+  min-height: 400px; 
+  align-items: flex-start;
+}
+
+.enchants {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  max-height: 700px;
+  overflow-y: auto;
+}
+
+
+
+.enchant-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px; /* ou o tamanho que quiser */
+  margin: 10px;
+}
+
+.enchant-box {
+  width: 120px;
+  height: 120px;
+  background-color: #2b2b3d; /* cor interna do quadrado */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid gray; /* padrão, substituído pelas classes abaixo */
+  border-radius: 8px;      /* opcional */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* opcional */
+  cursor: pointer;
+}
+
+.enchant-box img {
+  width: 70%;
+  height: 70%;
+  object-fit: contain;
+  display: block;
+  transition: 0.3s;
+}
+
+.enchant-box img:hover {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  display: block;
+}
+
+.enchant-container span {
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.enchantment-info p {
+  margin: 0;
+}
+
+.enchantment-info h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.simples {
+  border-color: #a0a0a0;
+  background-color: #e6e6e6;
+}
+
+.raro {
+  border-color: #7bb26a;
+  background-color: #e4f2de;
+}
+
+.ultra {
+  border-color: #4da6b3;
+  background-color: #d3eef2;
+}
+
+.heroico {
+  border-color: #c8b03c;
+  background-color: #f9f6dc;
+}
+
+.lendario {
+  border-color: #db9246;
+  background-color: #fcebd8;
+}
+
+.maestria {
+  border-color: #d35f5f;
+  background-color: #f8d6d6;
+}
+
+.divino {
+  border-color: #ba80b0;
+  background-color: #f2e5f0;
+}
+
+.magicos {
+  border-color: #4a7c59;
+  background-color: #d9e6dd;
+}
+
+.sinistro {
+  border-color: #2e2a44;
+  background-color: #d5d3e6;
+}
+
+.group-color-simples {
+  color: gray;
+}
+
+.group-color-raro {
+  color: greenyellow;
+}
+
+.group-color-ultra {
+  color: aqua;
+}
+
+.group-color-heroico {
+  color: yellow;
+}
+
+.group-color-lendario {
+  color: orange;
+}
+
+.group-color-maestria {
+  color: red;
+}
+
+.group-color-divino {
+  color: rgb(255, 101, 222);
+}
+
+.group-color-magicos {
+  color: rgb(33, 90, 63);
+}
+
+.group-color-sinistro {
+  color: rgb(86, 84, 126);
+}
+
+.enchantment-description {
+  color: rgb(243, 243, 134);
+}
